@@ -1,0 +1,38 @@
+body{
+	margin:: 0 auto;
+	background:url(c.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 720px;
+}
+
+.container{
+	width: 500px;
+	height: 400px;
+	text-align:center;
+	background-color: rgba(52,73,94,0.7);
+	margin-top:150px;
+	border-radius:4px;
+	margin: 0 auto;
+}
+.container img{
+	margin-top:-60px;
+	width:120px;
+	height:120px;
+	margin-bottom:30px;
+}
+input{
+	height:45px;
+	width::300px;
+	font-size:18px;
+	margin-bottom:20px;
+	background-color:#fff;
+	padding-left:30px;
+}
+.form-input::before{
+	content:"\f007";
+	position:absolute;
+	font-family:"FontAwesome";
+	padding-left:5px;
+	padding-top:5px;
+	font-size:35px;
+}
